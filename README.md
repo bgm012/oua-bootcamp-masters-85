@@ -24,7 +24,7 @@ Takım 85
 
 ## Hedef Kitle
 
-
+15 - 65 yaş arasındaki tüm kişiler
 
 ## Product Backlog URL
 
