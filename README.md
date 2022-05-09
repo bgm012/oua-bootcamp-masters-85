@@ -22,6 +22,7 @@ Veneficus adlı oyunumuz ile oyunseverlerin keyifli vakit geçirmesini istiyoruz
 
 
 
+
 ## Hedef Kitle
 
 Oyun severler
@@ -32,17 +33,17 @@ Macera severler
 
 ## Product Backlog URL
 
-
+https://trello.com/b/JTZWHgKW/kanban-wizard-platform-puzzle-game
 
 ---
 
 # Sprint 1
 
-- **Sprint Notları**: 
+- **Sprint Notları**: Product backlog item'lara tıklandığında puanlar görülebilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: 
+- **Puan tamamlama mantığı**: İlk sprint 100 üzerinden değerlendirildi.
 
 - **Backlog düzeni ve Story seçimleri**:  
 
