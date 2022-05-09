@@ -12,11 +12,11 @@ Takım 85
 
 ## Ürün İsmi
 
---xxx App--
+Veneficus
 
 ## Ürün Açıklaması
 
-... adlı oyunumuz ile oyunseverlerin keyifli vakit geçirmesini istiyoruz. Büyücü prensin büyücü kral olabilmesi için tek yol büyücü kitabının sayfalarını birleştirmek. Prens bu macerada çeşitli yaratıkların üstesinden gelerek kitap sayfalarını birleştirmeye çalışıyor. Bulduğu her sayfa onun gelişmesine yardımcı olacak.
+Veneficus adlı oyunumuz ile oyunseverlerin keyifli vakit geçirmesini istiyoruz. Büyücü prensin büyücü kral olabilmesi için tek yol büyücü kitabının sayfalarını birleştirmek. Prens bu macerada çeşitli yaratıkların üstesinden gelerek kitap sayfalarını birleştirmeye çalışıyor. Bulduğu her sayfa onun gelişmesine yardımcı olacak.
 
 ## Ürün Özellikleri
 
@@ -54,8 +54,11 @@ Macera severler
 ![trello](https://user-images.githubusercontent.com/105126860/167430273-a2e809c8-030f-4abc-8b32-e99ab3bb0b30.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+ ![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
+![product2](https://user-images.githubusercontent.com/105126860/167490068-f12cfb2f-4e75-4822-9ad7-c319aa87b459.jpg)
+![product3](https://user-images.githubusercontent.com/105126860/167490081-9dc93d0d-1b9d-4d9a-ab71-4d507d546469.jpg)
+![product4](https://user-images.githubusercontent.com/105126860/167490085-e72b98c4-13c3-4dfa-9446-885c7c617276.jpg)
+
 
 - **Sprint Review**: 
 Alınan kararlar: Oyunun platform puzzle olmasına ve hikaye içermesine karar verilmiştir. Oyunun yapılabilirliğinin artması için öncelikle hikaye bütünlüğünün sağlanması gerektiğine karar verilmiştir. Başlayan kabatasarım çizimlerin zamanla değerlendirilerek geliştirilmesi sağlanacaktır. Hikayeyi güçlendirecek ve karaktere eklenecek ekstra özellik düşünceleri paylaşılmıştır. Karakterin hareketini sağlayan kodlar yazılmıştır.   
