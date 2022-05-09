@@ -24,6 +24,8 @@ Takım 85
 
 ## Hedef Kitle
 
+Oyun severler
+Macera severler
 15 - 65 yaş arasındaki tüm kişiler
 
 ## Product Backlog URL
@@ -44,24 +46,24 @@ Takım 85
 
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: [DailyScrum.docx](https://github.com/bgm012/oua-bootcamp-masters-85/files/8652343/DailyScrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+![trello](https://user-images.githubusercontent.com/105126860/167430273-a2e809c8-030f-4abc-8b32-e99ab3bb0b30.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
   ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Oyunun platform puzzle olmasına ve hikaye içermesine karar verilmiştir. Oyunun yapılabilirliğinin artması için öncelikle hikaye bütünlüğünün sağlanması gerektiğine karar verilmiştir. Başlayan kabatasarım çizimlerin zamanla değerlendirilerek geliştirilmesi sağlanacaktır. Hikayeyi güçlendirecek ve karaktere eklenecek ekstra özellik düşünceleri paylaşılmıştır. Karakterin hareketini sağlayan kodlar yazılmıştır.   
+Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Sınavlar ve tatil nedeniyle ulaşılamayan hedefler üzerine yoğunlaşılacak.
+  - UI ve labirent tasarımına ayrılan zaman arttırılacak.
+  - Scrum master user story kısmını düzenleyecek.
+  
 
 -**Diğer Notlar**:
 - N/A
