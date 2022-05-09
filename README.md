@@ -51,7 +51,8 @@ Macera severler
 - **Daily Scrum**: [DailyScrum.docx](https://github.com/bgm012/oua-bootcamp-masters-85/files/8652343/DailyScrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![trello](https://user-images.githubusercontent.com/105126860/167430273-a2e809c8-030f-4abc-8b32-e99ab3bb0b30.png)
+![trellos](https://user-images.githubusercontent.com/105126860/167490950-7e65100d-5d2a-4f34-b6a3-890afeb604ec.png)
+
 
 - **Ürün Durumu**: Ekran görüntüleri:
  ![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
