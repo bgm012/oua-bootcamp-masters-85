@@ -16,7 +16,7 @@ Takım 85
 
 ## Ürün Açıklaması
 
-
+... adlı oyunumuz ile oyunseverlerin keyifli vakit geçirmesini istiyoruz. Büyücü prensin büyücü kral olabilmesi için tek yol büyücü kitabının sayfalarını birleştirmek. Prens bu macerada çeşitli yaratıkların üstesinden gelerek kitap sayfalarını birleştirmeye çalışıyor. Bulduğu her sayfa onun gelişmesine yardımcı olacak.
 
 ## Ürün Özellikleri
 
