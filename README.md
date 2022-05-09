@@ -68,7 +68,7 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
   
 
 -**Diğer Notlar**:
-- N/A
+- 
 
 ---
 
