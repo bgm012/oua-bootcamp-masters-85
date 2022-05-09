@@ -25,7 +25,9 @@ Takım 85
 ## Hedef Kitle
 
 Oyun severler
+
 Macera severler
+
 15 - 65 yaş arasındaki tüm kişiler
 
 ## Product Backlog URL
