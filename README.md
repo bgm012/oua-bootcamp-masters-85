@@ -45,7 +45,7 @@ https://trello.com/b/JTZWHgKW/kanban-wizard-platform-puzzle-game
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. Üç sprint olduğundan ilk sprint 100 üzerinden değerlendirildi.
 
-- **Backlog düzeni ve Story seçimleri**:  
+- **Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.
 
 
 
