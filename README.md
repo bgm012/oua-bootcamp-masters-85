@@ -59,6 +59,7 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
+
  ![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
 ![product2](https://user-images.githubusercontent.com/105126860/167490068-f12cfb2f-4e75-4822-9ad7-c319aa87b459.jpg)
 ![product3](https://user-images.githubusercontent.com/105126860/167490081-9dc93d0d-1b9d-4d9a-ab71-4d507d546469.jpg)
