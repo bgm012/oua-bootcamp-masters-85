@@ -47,7 +47,7 @@ https://trello.com/b/JTZWHgKW/kanban-wizard-platform-puzzle-game
 
 - **Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde seçimler yapılmaktadır.
 
-Trello'da gözüken sarı itemler görevleri, mavi itemler storyleri, yeşili itemler tamamlanmış görevleri, temsil etmektedir.
+Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynakları, sarı itemler görevleri, yeşili itemler tamamlanmış görevleri temsil etmektedir.
 
 
 
