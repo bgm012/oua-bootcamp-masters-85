@@ -54,7 +54,8 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 - **Daily Scrum**: [DailyScrum.docx](https://github.com/bgm012/oua-bootcamp-masters-85/files/8652343/DailyScrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![trellos](https://user-images.githubusercontent.com/105126860/167490950-7e65100d-5d2a-4f34-b6a3-890afeb604ec.png)
+![ttrello](https://user-images.githubusercontent.com/105126860/167690230-7c344ca2-6e33-4d5c-8966-80dad4cac248.png)
+
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
