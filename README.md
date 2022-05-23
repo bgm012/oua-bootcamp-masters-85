@@ -83,7 +83,9 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
 
 # Sprint 2
 
+## Product Backlog URL
 
+https://trello.com/b/Vh1GI5BO/wizard-platform-puzzle-game-sprint-ii
 ---
 
 # Sprint 3
