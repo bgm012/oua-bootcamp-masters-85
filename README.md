@@ -60,9 +60,9 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+-**Ürün Durumu**: Ekran görüntüleri:
 
- ![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
+![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
 ![product2](https://user-images.githubusercontent.com/105126860/167490068-f12cfb2f-4e75-4822-9ad7-c319aa87b459.jpg)
 ![product3](https://user-images.githubusercontent.com/105126860/167490081-9dc93d0d-1b9d-4d9a-ab71-4d507d546469.jpg)
 ![product4](https://user-images.githubusercontent.com/105126860/167490085-e72b98c4-13c3-4dfa-9446-885c7c617276.jpg)
@@ -85,22 +85,24 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
 
 # Sprint 2
 
-- **Sprint Notları**: Her sprint için ayrı board açılmıştır. Product backlog item'lara tıklandığında içeriğindeki puanlar görülebilir.
+**Sprint Notları**: Her sprint için ayrı board açılmıştır. Product backlog item'lara tıklandığında içeriğindeki puanlar görülebilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. Üç sprint olduğundan ikinci sprint de ilk sprint gibi 100 üzerinden değerlendirildi.
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. Üç sprint olduğundan ikinci sprint de ilk sprint gibi 100 üzerinden değerlendirildi.
 
-- **Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde seçimler yapılmaktadır.
+**Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde seçimler yapılmaktadır.
 
 Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynakları, sarı itemler görevleri, turuncu itemlar devam etmekte olan, yeşili itemler tamamlanmış görevleri temsil etmektedir.
 
 ![Screen Shot 2022-05-23 at 20 51 32](https://user-images.githubusercontent.com/65497004/169889404-6a932581-44d7-4a4d-9c19-73fd409f0519.png)
 
 **Daily Scrum**:  Genellikle Discord üzerinden Huddle'a girildi ve ekran paylaşımı yapıldı. Whatsapp üzerinden iletişime geçildi. 
-![Uploading Screen Shot 2022-05-23 at 22.15.19.png…](<img width="817" alt="Screen Shot 2022-05-23 at 22 16 01" src="https://user-images.githubusercontent.com/65497004/169890466-516537b3-6241-4858-be29-f2ffed42e649.png">)
+(<img width="817" alt="Screen Shot 2022-05-23 at 22 16 01" src="https://user-images.githubusercontent.com/65497004/169890466-516537b3-6241-4858-be29-f2ffed42e649.png">)
 
-**Ürün Durumu**: Ekran görüntüleri:
+**Ürün Durumu**: 
+
+Ekran görüntüleri:
 ![Ekran_goruntusu_2022-05-23_215936](https://user-images.githubusercontent.com/65497004/169890775-b34a18a6-c176-4dad-9e40-1c62d7ba9e0c.png)
 ![Ekran_goruntusu_2022-05-23_215946](https://user-images.githubusercontent.com/65497004/169890830-a3acbf5a-d6c3-4281-8048-9391c2b886de.png)
 ![Ekran_goruntusu_2022-05-23_215920](https://user-images.githubusercontent.com/65497004/169890891-98ed9d9d-3810-48d0-a229-daea7c917be7.png)
@@ -116,12 +118,12 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 ![Ekran_goruntusu_2022-05-23_220327](https://user-images.githubusercontent.com/65497004/169891416-95fe660b-a812-448d-b087-8229d4477fe0.png)
 ![Screen Shot 2022-05-23 at 22 23 20](https://user-images.githubusercontent.com/65497004/169891536-65bf9203-be7b-4149-8a28-20493281d838.png)
 
-- **Sprint Review**: 
+**Sprint Review**: 
 Alınan kararlar: Oyunun ana karakter tasarımları ve animasyonları hazırlandı. Map tile seti ve map oluşturma kısmında hızlanıldı. Background seçimi yapıldı. Map içerisine idle objeler eklenerek görsel güzellik katmak amaçlandı. Ana karakter tasarımın oluşması ile beraber karakterin map içerisindeki hareketi sağlandı. Ana karakterimizin düşmanı gücü ile etkisiz hale getirmesi sağlandı. Düşman mekaniği geliştirildi -player takibi- ve hasar hitbox ayarları yapıldı.
 
 Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
 
-- **Sprint Retrospective:**
+**Sprint Retrospective:**
   - Programımızı hızlandırma kararı alındı.
   - Projeyi yetiştirmek adına oyunumun içeriğini küçültme gibi bir kararımız oluştu.
   
