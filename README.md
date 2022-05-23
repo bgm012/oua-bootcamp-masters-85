@@ -8,7 +8,8 @@ Takım 85
 
 - Begüm YILDIRIM: Product Owner
 - Sude PAKALIN : Scrum Master
-- Metin TOPÇUOĞLU,Şevval BABUR: Team Member/Developer/Artist 
+- Metin TOPCUOGLU: Team Member/Developer
+- Şevval BABUR: Team Member/Developer/Artist 
 
 ## Ürün İsmi
 
