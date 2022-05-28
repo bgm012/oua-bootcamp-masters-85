@@ -83,11 +83,50 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
 
 # Sprint 2
 
-## Product Backlog URL
+**Sprint Notları**: Her sprint için ayrı board açılmıştır. Product backlog item'lara tıklandığında içeriğindeki puanlar görülebilir.
 
-https://trello.com/b/Vh1GI5BO/wizard-platform-puzzle-game-sprint-ii
----
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. Üç sprint olduğundan ikinci sprint de ilk sprint gibi 100 üzerinden değerlendirildi.
+
+**Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde seçimler yapılmaktadır.
+
+Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynakları, sarı itemler görevleri, turuncu itemlar devam etmekte olan, yeşili itemler tamamlanmış görevleri temsil etmektedir.
+
+![Screen Shot 2022-05-23 at 20 51 32](https://user-images.githubusercontent.com/65497004/169889404-6a932581-44d7-4a4d-9c19-73fd409f0519.png)
+
+**Daily Scrum**:  Genellikle Discord üzerinden Huddle'a girildi ve ekran paylaşımı yapıldı. Whatsapp üzerinden iletişime geçildi. 
+(<img width="817" alt="Screen Shot 2022-05-23 at 22 16 01" src="https://user-images.githubusercontent.com/65497004/169890466-516537b3-6241-4858-be29-f2ffed42e649.png">)
+
+**Ürün Durumu**: 
+
+Ekran görüntüleri:
+![Ekran_goruntusu_2022-05-23_215936](https://user-images.githubusercontent.com/65497004/169890775-b34a18a6-c176-4dad-9e40-1c62d7ba9e0c.png)
+![Ekran_goruntusu_2022-05-23_215946](https://user-images.githubusercontent.com/65497004/169890830-a3acbf5a-d6c3-4281-8048-9391c2b886de.png)
+![Ekran_goruntusu_2022-05-23_215920](https://user-images.githubusercontent.com/65497004/169890891-98ed9d9d-3810-48d0-a229-daea7c917be7.png)
+![Ekran_goruntusu_2022-05-23_220049](https://user-images.githubusercontent.com/65497004/169890978-df7e4b17-a3a8-4a7e-bb3f-f82f5e9e416f.png)
+![Ekran_goruntusu_2022-05-23_220059](https://user-images.githubusercontent.com/65497004/169891044-1945837f-75fe-4d73-9539-14ad07101edc.png)
+![Ekran_goruntusu_2022-05-23_220110](https://user-images.githubusercontent.com/65497004/169891112-4c20ec70-a8c2-4438-bf58-de3ce5fb089b.png)
+![Ekran_goruntusu_2022-05-23_220119](https://user-images.githubusercontent.com/65497004/169891206-e82c858b-7a89-4e6d-8fa0-a82bcde590ee.png)
+![Ekran_goruntusu_2022-05-23_220023](https://user-images.githubusercontent.com/65497004/169891232-24128084-f195-4fb1-9835-54b18074f95f.png)
+![Ekran_goruntusu_2022-05-23_220034](https://user-images.githubusercontent.com/65497004/169891253-c7451881-505f-47ae-81ff-d7e2e11a85aa.png)
+![Ekran_goruntusu_2022-05-23_220232](https://user-images.githubusercontent.com/65497004/169891305-84f871c1-7a38-4b87-928a-8de7b2b95b96.png)
+![Ekran_goruntusu_2022-05-23_220223](https://user-images.githubusercontent.com/65497004/169891332-aceedc4e-15fc-49f8-a15a-66ad5554513c.png)
+![Ekran_goruntusu_2022-05-23_220306](https://user-images.githubusercontent.com/65497004/169891377-a83deafe-e0d2-4bdc-964d-451caeaf1628.png)
+![Ekran_goruntusu_2022-05-23_220327](https://user-images.githubusercontent.com/65497004/169891416-95fe660b-a812-448d-b087-8229d4477fe0.png)
+![Screen Shot 2022-05-23 at 22 23 20](https://user-images.githubusercontent.com/65497004/169891536-65bf9203-be7b-4149-8a28-20493281d838.png)
+
+**Sprint Review**: 
+Alınan kararlar: Oyunun ana karakter tasarımları ve animasyonları hazırlandı. Map tile seti ve map oluşturma kısmında hızlanıldı. Background seçimi yapıldı. Map içerisine idle objeler eklenerek görsel güzellik katmak amaçlandı. Ana karakter tasarımın oluşması ile beraber karakterin map içerisindeki hareketi sağlandı. Ana karakterimizin düşmanı gücü ile etkisiz hale getirmesi sağlandı. Düşman mekaniği geliştirildi -player takibi- ve hasar hitbox ayarları yapıldı.
+
+Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
+
+**Sprint Retrospective:**
+  - Programımızı hızlandırma kararı alındı.
+  - Projeyi yetiştirmek adına oyunumun içeriğini küçültme gibi bir kararımız oluştu.
+  
+**Diğer Notlar**:
+-
 # Sprint 3
 
 ---
