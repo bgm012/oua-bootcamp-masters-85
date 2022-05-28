@@ -100,6 +100,7 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 **Daily Scrum**:  Genellikle Discord üzerinden Huddle'a girildi ve ekran paylaşımı yapıldı. Whatsapp üzerinden iletişime geçildi. 
 (<img width="817" alt="Screen Shot 2022-05-23 at 22 16 01" src="https://user-images.githubusercontent.com/65497004/169890466-516537b3-6241-4858-be29-f2ffed42e649.png">)
 
+
 **Ürün Durumu**: 
 
 Ekran görüntüleri:
@@ -129,7 +130,6 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
   
 **Diğer Notlar**:
 -
-
 # Sprint 3
 
 ---
