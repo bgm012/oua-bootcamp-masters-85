@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: ce49e3dda10e64ab0bdd27e3d068c7e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1805158079502305607
+    second: Flag_0
+  - first:
+      213: -477789389410734736
+    second: Flag_1
+  - first:
+      213: -8119871676797884261
+    second: Flag_2
+  - first:
+      213: 5006722515616286978
+    second: Flag_3
+  - first:
+      213: -1620801062248390355
+    second: Flag_4
+  - first:
+      213: -6821687374815711783
+    second: Flag_5
+  - first:
+      213: 9203530336585976052
+    second: Flag_6
+  - first:
+      213: -5498009112885732322
+    second: Flag_7
+  - first:
+      213: 7483883601491041384
+    second: Flag_8
+  - first:
+      213: -4077365112243052297
+    second: Flag_9
+  - first:
+      213: -1076038790263142589
+    second: Flag_10
+  - first:
+      213: 7123730508648843983
+    second: Flag_11
+  - first:
+      213: 3212425294469108172
+    second: Flag_12
+  - first:
+      213: 2279773086328250220
+    second: Flag_13
+  - first:
+      213: -7425622752597321086
+    second: Flag_14
+  - first:
+      213: 6755553331240962130
+    second: Flag_15
+  - first:
+      213: 5885478727667930714
+    second: Flag_16
+  - first:
+      213: -8283176450551000680
+    second: Flag_17
+  - first:
+      213: -8263232976418961589
+    second: Flag_18
+  - first:
+      213: 8125518885306689150
+    second: Flag_19
+  - first:
+      213: 8460961520601177422
+    second: Flag_20
+  - first:
+      213: -3653387924263493056
+    second: Flag_21
+  - first:
+      213: 4194533151055478152
+    second: Flag_22
+  - first:
+      213: 6503215012133042380
+    second: Flag_23
+  - first:
+      213: 9141306938959004118
+    second: Flag_24
+  - first:
+      213: -2995696645667906970
+    second: Flag_25
+  - first:
+      213: -7160465731423460985
+    second: Flag_26
+  - first:
+      213: 8239693308303197734
+    second: Flag_27
+  - first:
+      213: 1222903912665764103
+    second: Flag_28
+  - first:
+      213: 2905249457249174301
+    second: Flag_29
+  - first:
+      213: 3484269767358682980
+    second: Flag_30
+  - first:
+      213: -6705813076598904554
+    second: Flag_31
+  - first:
+      213: -5890409378073842762
+    second: Flag_32
+  - first:
+      213: -4824007099505590598
+    second: Flag_33
+  - first:
+      213: -3220985003931206887
+    second: Flag_34
+  - first:
+      213: 4441422704755559474
+    second: Flag_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flag_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749492c85b53d0910800000000000000
+      internalID: 1805158079502305607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flag_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07de8bee41d8e59f0800000000000000
+      internalID: -477789389410734736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flag_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98e4ba1bbb605f80800000000000000
+      internalID: -8119871676797884261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flag_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2094248e9937b7540800000000000000
+      internalID: 5006722515616286978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
