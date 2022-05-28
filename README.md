@@ -8,7 +8,8 @@ Takım 85
 
 - Begüm YILDIRIM: Product Owner
 - Sude PAKALIN : Scrum Master
-- Metin TOPÇUOĞLU,Şevval BABUR: Team Member/Developer/Artist 
+- Metin TOPCUOGLU: Team Member/Developer
+- Şevval BABUR: Team Member/Developer/Artist 
 
 ## Ürün İsmi
 
@@ -33,7 +34,8 @@ Macera severler
 
 ## Product Backlog URL
 
-https://trello.com/b/JTZWHgKW/kanban-wizard-platform-puzzle-game
+Sprint   I; https://trello.com/b/JTZWHgKW/wizard-platform-puzzle-game-sprint-i
+Sprint  II; https://trello.com/b/Vh1GI5BO/wizard-platform-puzzle-game-sprint-ii
 
 ---
 
@@ -58,9 +60,9 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+-**Ürün Durumu**: Ekran görüntüleri:
 
- ![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
+![product1](https://user-images.githubusercontent.com/105126860/167490060-5e3127b2-acc4-4525-af53-02f92927371b.jpg)
 ![product2](https://user-images.githubusercontent.com/105126860/167490068-f12cfb2f-4e75-4822-9ad7-c319aa87b459.jpg)
 ![product3](https://user-images.githubusercontent.com/105126860/167490081-9dc93d0d-1b9d-4d9a-ab71-4d507d546469.jpg)
 ![product4](https://user-images.githubusercontent.com/105126860/167490085-e72b98c4-13c3-4dfa-9446-885c7c617276.jpg)
@@ -97,6 +99,7 @@ Trello'da gözüken mavi itemler storyleri, mor itemler ilham alınan kaynaklar�
 
 **Daily Scrum**:  Genellikle Discord üzerinden Huddle'a girildi ve ekran paylaşımı yapıldı. Whatsapp üzerinden iletişime geçildi. 
 (<img width="817" alt="Screen Shot 2022-05-23 at 22 16 01" src="https://user-images.githubusercontent.com/65497004/169890466-516537b3-6241-4858-be29-f2ffed42e649.png">)
+
 
 **Ürün Durumu**: 
 
