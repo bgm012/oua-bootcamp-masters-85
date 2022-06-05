@@ -30511,8 +30511,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
+      propertyPath: deneme
+      value: 
+      objectReference: {fileID: 1221313370}
+    - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: health
       value: 2000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
+      propertyPath: coolDownTime
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: _teleportPoint
@@ -30521,6 +30529,10 @@ PrefabInstance:
     - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: _spriteRenderer
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
+      propertyPath: timeOfFirstButton
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7491838362724447754, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: m_TagString

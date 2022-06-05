@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class Player : MonoBehaviour
     public bool takeDamage = false;
     public bool suBilgisi = false;
     private Animator _animator;
-
+    public SpriteRenderer deneme;
+    
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -32,13 +34,16 @@ public class Player : MonoBehaviour
             {
                 if (Time.time - timeOfFirstButton < 0.5f)
                 {
-                    playerTeleport(distance);
+                    //playerTeleport(distance);
+                    _animator.SetBool("teleport",true);
                     nextFireTime = Time.time + coolDownTime;
+                    deneme.enabled = false;
                 }
                 reset = true;
             }
             if (Input.GetKey(KeyCode.T) && !firstButtonPressed)
             {
+                deneme.enabled = true;
                 firstButtonPressed = true;
                 timeOfFirstButton = Time.time;
             }
@@ -95,5 +100,26 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         _animator.SetBool("damage",false);
+    }
+
+    /* teleportStartSleep()
+    {
+        yield return new WaitForSeconds();
+    }
+    
+    IEnumerator teleportFinishSleep()
+    {
+        yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
+    }*/
+
+    public void AnimationStart()
+    { 
+        playerTeleport(distance);
+        _animator.SetBool("teleport",false);
+    }
+
+    public void backIdle()
+    {
+        _animator.SetTrigger("backIdle");
     }
 }
