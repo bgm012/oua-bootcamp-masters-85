@@ -12,9 +12,10 @@ public class controller : MonoBehaviour
     private bool grounded = true;
     private bool moving;
     private Rigidbody2D _rigidbody2D;
-    private Animator anim;
+    public Animator anim;
     private SpriteRenderer _spriteRenderer;
     public bool sagaBakma;
+    public bool die = false;
 
     private void Awake()
     {
@@ -83,15 +84,46 @@ public class controller : MonoBehaviour
                 anim.SetTrigger("jump");
                 anim.SetBool("grounded",false);
         }
-    }
 
-    private void OnCollisionEnter2D(Collision2D other)
+        if (die)
+        {
+            anim.SetTrigger("die");
+            Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
+        }
+    }
+    
+
+
+    /*private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("ground"))
+        if (other.gameObject.CompareTag("smallEnemy"))
+        {
+            Player player = other.get
+        }
+    }*/
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("enemy") )
         {
             anim.SetBool("grounded",true);
             grounded = true;
         }
     }
-    
+
+    /*private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("smallEnemy"))
+        {
+            Player player = col.GetComponent<Player>();
+            smallEnemy2 smallEnemy = col.GetComponent<smallEnemy2>();
+            if (player != null && smallEnemy != null)
+            {
+                //anim.SetBool("damage",true);
+                //player.takeHit(smallEnemy.damage);
+                //Debug.Log(smallEnemy.damage);
+                //anim.SetBool("damage",false);
+            }
+        }
+    }*/
 }

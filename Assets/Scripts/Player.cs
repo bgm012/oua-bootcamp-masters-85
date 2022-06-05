@@ -14,7 +14,8 @@ public class Player : MonoBehaviour
     private bool firstButtonPressed = false;
     public float timeOfFirstButton;
     private bool reset = false;
-
+    public bool takeDamage = false;
+    public bool suBilgisi = false;
 
     private void Update()
     {
@@ -42,10 +43,7 @@ public class Player : MonoBehaviour
             }
         }
     }
-
-    /*public void takeDamage()
-    {   
-    }*/
+    
 
     void playerTeleport(float distance)
     {
@@ -60,5 +58,24 @@ public class Player : MonoBehaviour
             _transform.position = new Vector3(transform.position.x - distance, _transform.position.y,0);
         }
         //float tempX = distance * yön;
+    }
+
+    public void takeHit(float smallEnemyDamage)
+    {
+        health -= smallEnemyDamage;
+        if (health <= 0)
+        {
+            Die();
+        }
+
+    }
+    public void Die ()
+    {
+        controller controller = GetComponent<controller>();
+        if (controller != null)
+        {
+            controller.die = true;
+            Debug.Log(controller.die);
+        }
     }
 }

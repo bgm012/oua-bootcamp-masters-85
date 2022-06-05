@@ -26,9 +26,15 @@ public class fireBall : MonoBehaviour {
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        smallEnemy2 _smallEnemy2 = hitInfo.GetComponent<smallEnemy2>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+        }
+
+        if (_smallEnemy2 != null)
+        {
+            _smallEnemy2.TakeDamage(damage);
         }
 
         if (hitInfo.gameObject.CompareTag("ground") || hitInfo.gameObject.CompareTag("enemy") || hitInfo.gameObject.CompareTag("Player"))
