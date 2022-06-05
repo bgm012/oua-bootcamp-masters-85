@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E) && firstButtonPressed)
             {
-                if (Time.time - timeOfFirstButton < 0.5f)
+                if (Time.time - timeOfFirstButton < 2.0f)
                 {
                     //playerTeleport(distance);
                     _animator.SetBool("teleport",true);
@@ -46,6 +46,11 @@ public class Player : MonoBehaviour
                 deneme.enabled = true;
                 firstButtonPressed = true;
                 timeOfFirstButton = Time.time;
+            }
+            if (Time.time - timeOfFirstButton > 2.0f)
+            {
+                deneme.enabled = false;
+                reset = true;
             }
             if (reset)
             {
