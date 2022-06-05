@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc0a2c8508ba716418dd30754e017018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_credits: {fileID: 0}
 --- !u!4 &1270390975
 Transform:
   m_ObjectHideFlags: 0
@@ -436,7 +437,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -694,7 +695,7 @@ GameObject:
   - component: {fileID: 1930120501}
   - component: {fileID: 1930120500}
   m_Layer: 0
-  m_Name: 1
+  m_Name: cinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

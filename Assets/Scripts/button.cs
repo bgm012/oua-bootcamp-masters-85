@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class button : MonoBehaviour
 {
-    
+    [SerializeField] GameObject ui_credits;
+    public void CreditsOpen()
+    {
+        ui_credits.SetActive(true);
+    }
+
     public void BUttonileri()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
