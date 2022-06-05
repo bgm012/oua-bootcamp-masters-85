@@ -14,15 +14,17 @@ public class smallEnemy : MonoBehaviour
     public Transform leftLimit;
     public Transform rightLimit;
     public bool live = true;
+    public Transform target;
+    public bool inRange; 
     #endregion
 
     #region Private Variables
     private RaycastHit2D hit;
-    private Transform target;
+    //private Transform target;
     private Animator anim;
     private float distance; 
     private bool attackMode =false;
-    private bool inRange; 
+    //private bool inRange; 
     private bool cooling; 
     private float intTimer;
     #endregion
@@ -67,7 +69,7 @@ public class smallEnemy : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D trig)
+    /*void OnTriggerEnter2D(Collider2D trig)
     {
         if (trig.gameObject.CompareTag("Player"))
         {
@@ -75,7 +77,7 @@ public class smallEnemy : MonoBehaviour
             inRange = true;
             Flip(); 
         }
-    }
+    }*/
 
     void EnemyLogic()
     {
@@ -174,7 +176,7 @@ public class smallEnemy : MonoBehaviour
         Flip();
     }
 
-    void Flip()
+    public void Flip()
     {
         Vector3 rotation = transform.eulerAngles;
         if (transform.position.x > target.position.x) 

@@ -6,7 +6,7 @@ using UnityEngine;
 public class hitbox : MonoBehaviour
 {
     public GameObject Player;
-    public Animator animator;
+    //public Animator animator;
     private void Start()
     {
         
@@ -29,17 +29,17 @@ public class hitbox : MonoBehaviour
         {
             if (Player != null)
             {
-                animator.SetBool("damage",true);
-                StartCoroutine(wait());
+                //animator.SetBool("damage",true);
+                //StartCoroutine(wait());
                 Player.GetComponentInChildren<Player>().takeHit(20);
-                animator.SetBool("damage",false);
+                //animator.SetBool("damage",false);
             }
         }
         
     }
 
-    IEnumerator wait()
+    /*IEnumerator wait()
     {
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-    }
+    }*/
 }

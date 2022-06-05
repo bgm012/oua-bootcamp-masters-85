@@ -185,11 +185,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7491838362403992789, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
   m_PrefabInstance: {fileID: 4420643184119779694}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &115056015 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7491838362403992788, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
-  m_PrefabInstance: {fileID: 4420643184119779694}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &205188437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,7 +2273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 115056008}
-  animator: {fileID: 115056015}
 --- !u!1 &543787022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,6 +3050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595842647}
   - component: {fileID: 595842648}
+  - component: {fileID: 595842649}
   m_Layer: 0
   m_Name: triggerArea
   m_TagString: Untagged
@@ -3103,6 +3098,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4735676, y: 0.11978771}
   m_EdgeRadius: 0
+--- !u!114 &595842649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595842646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28922b9941e93c244b8d24ff7ebc275f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1484692258}
 --- !u!4 &688129747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9069407275789613662, guid: 6fa98cbc69dc4724f916d6c33fcefa53, type: 3}
@@ -29429,7 +29437,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 115056008}
-  animator: {fileID: 115056015}
 --- !u!4 &904037480 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9069407275789613662, guid: 6fa98cbc69dc4724f916d6c33fcefa53, type: 3}
@@ -30032,6 +30039,8 @@ MonoBehaviour:
   leftLimit: {fileID: 1512443140}
   rightLimit: {fileID: 1099501585}
   live: 1
+  target: {fileID: 0}
+  inRange: 0
 --- !u!61 &1484692266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30294,7 +30303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6850380407719673310, guid: 46d155ad2bb863448b60e0b5754ccfc0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6850380407719673310, guid: 46d155ad2bb863448b60e0b5754ccfc0, type: 3}
       propertyPath: m_TagString
@@ -30500,6 +30509,10 @@ PrefabInstance:
     - target: {fileID: 7491838362403992794, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
+      propertyPath: health
+      value: 2000000
       objectReference: {fileID: 0}
     - target: {fileID: 7491838362403992798, guid: 52b74d22e7d7a844096cf563c57459f3, type: 3}
       propertyPath: _teleportPoint

@@ -16,6 +16,12 @@ public class Player : MonoBehaviour
     private bool reset = false;
     public bool takeDamage = false;
     public bool suBilgisi = false;
+    private Animator _animator;
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -43,7 +49,7 @@ public class Player : MonoBehaviour
             }
         }
     }
-    
+
 
     void playerTeleport(float distance)
     {
@@ -62,10 +68,16 @@ public class Player : MonoBehaviour
 
     public void takeHit(float smallEnemyDamage)
     {
+        _animator.SetBool("damage",true);
         health -= smallEnemyDamage;
         if (health <= 0)
         {
             Die();
+        }
+
+        if (health > 0)
+        {
+            StartCoroutine(sleep());
         }
 
     }
@@ -77,5 +89,11 @@ public class Player : MonoBehaviour
             controller.die = true;
             Debug.Log(controller.die);
         }
+    }
+
+    IEnumerator sleep()
+    {
+        yield return new WaitForSeconds(1.0f);
+        _animator.SetBool("damage",false);
     }
 }
