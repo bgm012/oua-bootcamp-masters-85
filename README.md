@@ -128,8 +128,44 @@ Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
   - Programımızı hızlandırma kararı alındı.
   - Projeyi yetiştirmek adına oyunumun içeriğini küçültme gibi bir kararımız oluştu.
   
-**Diğer Notlar**:
+**Diğer Notlar**: - 
+
 -
 # Sprint 3
+
+Trello; https://trello.com/b/ZGOLhpE6/wizard-platform-puzzle-game-sprint-iii
+
+**Sprint Notları**: Her sprint için ayrı board açılmıştır. Product backlog item'lara tıklandığında içeriğindeki puanlar görülebilir.
+
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. Üç sprint olduğundan, üçüncü sprint de diğer sprintler gibi 100 üzerinden değerlendirildi.
+
+**Backlog düzeni ve Story seçimleri**:  Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde seçimler yapılmaktadır.
+
+Trello'da gözüken mavi itemler backlogları, mor itemler ilham alınan kaynakları, yeşil itemler tamamlanmış görevleri temsil etmektedir.
+
+![Screen Shot 2022-06-06 at 21 47 10](https://user-images.githubusercontent.com/65497004/172226491-ef3fc5a4-0330-445f-9897-6c635a071aa6.png)
+![Screen Shot 2022-06-06 at 21 48 02](https://user-images.githubusercontent.com/65497004/172226626-18f97bf4-a5ef-4e26-8597-95ae86bc4fcb.png)
+
+**Daily Scrum**:  Genellikle Discord üzerinden Huddle'a girildi ve ekran paylaşımı yapıldı. Whatsapp üzerinden iletişime geçildi. 
+<img width="1545" alt="Untitled" src="https://user-images.githubusercontent.com/65497004/172228334-6d6c5c21-c179-4656-ae21-4b0848e3a49c.png">
+![Screen Shot 2022-06-06 at 22 01 18](https://user-images.githubusercontent.com/65497004/172229017-5ba27cb0-f095-4399-8a3e-4b2605c2a867.png)
+
+**Ürün Durumu**: 
+
+Ekran görüntüleri:
+![Screen Shot 2022-06-06 at 21 30 18](https://user-images.githubusercontent.com/65497004/172228519-dc489d4f-74bb-4819-b3a4-ed370d6543bb.png)
+
+**Sprint Review**: 
+
+Alınan kararlar: Oyunun ana karakter tasarımları ve animasyonları ile revize olan map birleştirildi. Intro ve background müziği seçimi yapıldı. Map içerisine düşmanlar, yaratıklar ve ana karakterimiz yerleştirildi, buglar çözüldü. Hikayemizin bütünlüğünü koruyacak şekilde intro videosu hazırlandı. Karakterimizin oynanışını kolaylaşıtıracak yönerge UI'ları hazırlandı.
+
+Sprint Review katılımcıları: Begüm, Metin, Sude ve Şevval
+
+**Sprint Retrospective:**
+  - Projeyi yetiştirmek için oyunun içeriğini küçülme kararına sadık kalındı.
+  
+**Diğer Notlar**: - 
 
 ---
