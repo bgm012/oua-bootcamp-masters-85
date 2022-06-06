@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -28,19 +29,20 @@ public class Player : MonoBehaviour
     public Image atesToprak;
     public Image suHava;
     public Image suToprak;
-
-
+    public TextMeshProUGUI text;
+    public healtBar healtBar;
     
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        healtBar.SetMaxHealt(health);
     }
 
     private void Update()
     {
         if (health<=0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("kaybettin");
         }
         if (Time.time > nextFireTime)
         {
@@ -72,6 +74,7 @@ public class Player : MonoBehaviour
             }
         }
         control();
+        text.text = "Mevcut Can % lik Değeri: " + (health/3f).ToString();
     }
 
 
@@ -102,6 +105,7 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(sleep());
         }
+        healtBar.SetHealth(health);
 
     }
     public void Die ()
