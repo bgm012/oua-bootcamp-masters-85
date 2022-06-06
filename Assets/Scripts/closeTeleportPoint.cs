@@ -5,16 +5,20 @@ using UnityEngine;
 
 public class closeTeleportPoint : MonoBehaviour
 {
-    private GameObject _teleportPoint;
+    private SpriteRenderer _spriteRenderer;
 
-    
+    private void Start()
+    {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     public void close()
     {
-        _teleportPoint.SetActive(false);
+        _spriteRenderer.enabled = false;
     }
 
     public void open()
     {
-        _teleportPoint.SetActive(true);
+        _spriteRenderer.enabled = true;
     }
 }

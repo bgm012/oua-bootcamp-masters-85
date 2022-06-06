@@ -9,6 +9,10 @@ TagManager:
   - enemy
   - self
   - teleport
+  - hitbox
+  - smallEnemyHitbox
+  - sh
+  - smallEnemy
   layers:
   - Default
   - TransparentFX
