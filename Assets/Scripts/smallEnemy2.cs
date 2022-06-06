@@ -20,11 +20,11 @@ public class smallEnemy2 : MonoBehaviour {
 
     public void TakeDamage (int damage)
     {
-        if (player != null && player.GetComponent<Player>().suBilgisi)
+        if (player != null && player.GetComponent<Player>().atesHava)
         {
             health -= damage;
         }
-        if (player != null && !player.GetComponent<Player>().suBilgisi)
+        if (player != null && !player.GetComponent<Player>().atesHava)
         {
             health -= (damage*0.1f);
         }

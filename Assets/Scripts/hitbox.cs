@@ -6,7 +6,6 @@ using UnityEngine;
 public class hitbox : MonoBehaviour
 {
     public GameObject Player;
-    //public Animator animator;
     private void Start()
     {
         
@@ -14,32 +13,15 @@ public class hitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        /*if(col.CompareTag("Player"))
-        {
-            Player player = col.GetComponent<Player>();
-            smallEnemy2 smallEnemy = col.GetComponent<smallEnemy2>();
-            controller controller = col.GetComponent<controller>();
-            if (player != null && smallEnemy != null)
-            {
-               //player.takeHit(smallEnemy.damage);
-               Debug.Log(smallEnemy.damage);
-            }
-        }*/
+
         if (col.CompareTag("Player"))
         {
             if (Player != null)
             {
-                //animator.SetBool("damage",true);
-                //StartCoroutine(wait());
-                Player.GetComponentInChildren<Player>().takeHit(20);
-                //animator.SetBool("damage",false);
+                Player.GetComponentInChildren<Player>().takeHit(GetComponentInParent<smallEnemy2>().damage);
             }
         }
         
     }
 
-    /*IEnumerator wait()
-    {
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-    }*/
 }

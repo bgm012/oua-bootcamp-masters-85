@@ -54,7 +54,6 @@ public class controller : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 moveDirection = -1.0f;
-                //_spriteRenderer.flipX = true;
                 Vector3 scaleChange = transform.localScale;
                 scaleChange = new Vector3(-1f, 1f, transform.localScale.z);
                 transform.localScale = scaleChange;
@@ -64,7 +63,6 @@ public class controller : MonoBehaviour
             else if (Input.GetKey(KeyCode.D))
             {
                 moveDirection = 1.0f;
-                //_spriteRenderer.flipX = false;
                 Vector3 scaleChange = transform.localScale;
                 scaleChange = new Vector3(1f, 1f, transform.localScale.z);
                 transform.localScale = scaleChange;
@@ -91,16 +89,6 @@ public class controller : MonoBehaviour
             Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
         }
     }
-    
-
-
-    /*private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("smallEnemy"))
-        {
-            Player player = other.get
-        }
-    }*/
 
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -110,20 +98,5 @@ public class controller : MonoBehaviour
             grounded = true;
         }
     }
-
-    /*private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.CompareTag("smallEnemy"))
-        {
-            Player player = col.GetComponent<Player>();
-            smallEnemy2 smallEnemy = col.GetComponent<smallEnemy2>();
-            if (player != null && smallEnemy != null)
-            {
-                //anim.SetBool("damage",true);
-                //player.takeHit(smallEnemy.damage);
-                //Debug.Log(smallEnemy.damage);
-                //anim.SetBool("damage",false);
-            }
-        }
-    }*/
+    
 }

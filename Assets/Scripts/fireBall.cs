@@ -10,28 +10,31 @@ public class fireBall : MonoBehaviour {
 
     public int damage = 40;
     private Rigidbody2D rb;
-    //public GameObject impactEffect;
     
     
     void Start () {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    /*private void Update()
-    {
-        float angle = Mathf.Atan2(rb.velocity.x, rb.velocity.y) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-    }*/
-
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        havaBekcisi havaBekcisi = hitInfo.GetComponent<havaBekcisi>();
+        suBekcisi suBekcisi = hitInfo.GetComponent<suBekcisi>();
+        toprakBekcisi toprakBekcisi = hitInfo.GetComponent<toprakBekcisi>();
         smallEnemy2 _smallEnemy2 = hitInfo.GetComponent<smallEnemy2>();
-        if (enemy != null)
+        
+        if (havaBekcisi != null)
         {
-            enemy.TakeDamage(damage);
+            havaBekcisi.TakeDamage(damage);
         }
-
+        if (suBekcisi != null)
+        {
+            suBekcisi.TakeDamage(damage);
+        }  
+        if (toprakBekcisi != null)
+        {
+            toprakBekcisi.TakeDamage(damage);
+        }
         if (_smallEnemy2 != null)
         {
             _smallEnemy2.TakeDamage(damage);
@@ -42,7 +45,6 @@ public class fireBall : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        //Instantiate(impactEffect, transform.position, transform.rotation);
     }
 	
 }

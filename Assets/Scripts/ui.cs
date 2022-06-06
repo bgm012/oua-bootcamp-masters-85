@@ -19,7 +19,7 @@ public class ui : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.F))
         {
-            Debug.Log("aa");
+            //Debug.Log("aa");
             tab_counter = true;
 
             uipanel.SetActive(true);
@@ -27,7 +27,7 @@ public class ui : MonoBehaviour
         }
         if (tab_counter && Input.GetKey(KeyCode.G))
         {
-            Debug.Log("bb");
+            //Debug.Log("bb");
             tab_counter = false;
             uipanel.SetActive(false);
             uipanel2.SetActive(false);

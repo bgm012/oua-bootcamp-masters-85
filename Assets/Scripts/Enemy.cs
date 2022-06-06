@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour {
 	//public AnimationClip deathEffect;
 	//public AnimationClip takeDamageEffect;
 
-	private void Awake()
+	private void Start()
 	{
 		_animator = GetComponent<Animator>();
 	}

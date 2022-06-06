@@ -5,6 +5,7 @@ using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using Image = UnityEngine.UI.Image;
 
 public class Player : MonoBehaviour
 {
@@ -18,8 +19,17 @@ public class Player : MonoBehaviour
     private bool reset = false;
     public bool takeDamage = false;
     public bool suBilgisi = false;
+    public bool havaBilgisi = false;
+    public bool atesBilgisi = true;
+    public bool toprakBilgisi = false;
     private Animator _animator;
     public SpriteRenderer deneme;
+    public Image atesHava;
+    public Image atesToprak;
+    public Image suHava;
+    public Image suToprak;
+
+
     
     private void Start()
     {
@@ -38,14 +48,13 @@ public class Player : MonoBehaviour
             {
                 if (Time.time - timeOfFirstButton < 2.0f)
                 {
-                    //playerTeleport(distance);
                     _animator.SetBool("teleport",true);
                     nextFireTime = Time.time + coolDownTime;
                     deneme.enabled = false;
                 }
                 reset = true;
             }
-            if (Input.GetKey(KeyCode.T) && !firstButtonPressed)
+            if (Input.GetKey(KeyCode.T) && !firstButtonPressed && havaBilgisi)
             {
                 deneme.enabled = true;
                 firstButtonPressed = true;
@@ -62,6 +71,7 @@ public class Player : MonoBehaviour
                 reset = false;
             }
         }
+        control();
     }
 
 
@@ -77,7 +87,6 @@ public class Player : MonoBehaviour
         {
             _transform.position = new Vector3(transform.position.x - distance, _transform.position.y,0);
         }
-        //float tempX = distance * yön;
     }
 
     public void takeHit(float smallEnemyDamage)
@@ -111,16 +120,6 @@ public class Player : MonoBehaviour
         _animator.SetBool("damage",false);
     }
 
-    /* teleportStartSleep()
-    {
-        yield return new WaitForSeconds();
-    }
-    
-    IEnumerator teleportFinishSleep()
-    {
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
-    }*/
-
     public void AnimationStart()
     { 
         playerTeleport(distance);
@@ -130,5 +129,26 @@ public class Player : MonoBehaviour
     public void backIdle()
     {
         _animator.SetTrigger("backIdle");
+    }
+
+    void control()
+    {
+        if (havaBilgisi && atesBilgisi)
+        {
+            atesHava.enabled = true;
+        }
+        if (havaBilgisi && suBilgisi)
+        {
+            suHava.enabled = true;
+        }
+        if (atesBilgisi && toprakBilgisi)
+        {
+            atesToprak.enabled = true;
+        }
+
+        if (toprakBilgisi && suBilgisi)
+        {
+            suToprak.enabled = true;
+        }
     }
 }
