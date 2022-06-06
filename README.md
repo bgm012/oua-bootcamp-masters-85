@@ -156,6 +156,28 @@ Trello'da gözüken mavi itemler backlogları, mor itemler ilham alınan kaynakl
 
 Ekran görüntüleri:
 ![Screen Shot 2022-06-06 at 21 30 18](https://user-images.githubusercontent.com/65497004/172228519-dc489d4f-74bb-4819-b3a4-ed370d6543bb.png)
+![havabekcisi1](https://user-images.githubusercontent.com/65497004/172239996-b1e21999-4489-4433-9920-e62d6b81c828.JPG)
+![Asa](https://user-images.githubusercontent.com/65497004/172240004-87423eaa-d47c-4745-9282-880fcfb06b8c.JPG)
+![ui](https://user-images.githubusercontent.com/65497004/172240005-7eeb8b32-7f51-4194-97d0-a6ba4c3194e4.JPG)
+![havabekcisi2](https://user-images.githubusercontent.com/65497004/172240007-c656a052-808e-4836-8831-7ab61e1e9276.JPG)
+![closeTeleport](https://user-images.githubusercontent.com/65497004/172240013-c0d04eae-5dfe-40b1-85d2-47cd9058a8c2.JPG)
+![player1](https://user-images.githubusercontent.com/65497004/172240015-3f3aae13-61fa-49a9-8e2b-5abbb62d9d94.JPG)
+![controller1](https://user-images.githubusercontent.com/65497004/172240017-48fcd35d-fa07-40c7-a75a-e6531922e0d9.JPG)
+![müzikdevam](https://user-images.githubusercontent.com/65497004/172240019-eb742a6d-f969-473c-9ce2-43dca272a796.JPG)
+![fireball](https://user-images.githubusercontent.com/65497004/172240020-e9e4b42f-9c5c-4d88-a3ca-f00b48a3336d.JPG)
+![havabekcisihitbox](https://user-images.githubusercontent.com/65497004/172240024-8cca8f97-45a8-49d1-a445-a7899ae4db20.JPG)
+![sayfaToplama](https://user-images.githubusercontent.com/65497004/172240026-02ca1726-26a7-4e54-8131-572d0234e77b.JPG)
+![Enemy_AI3](https://user-images.githubusercontent.com/65497004/172240027-60d142f1-c9a7-4c4d-9154-dec9db0426c2.JPG)
+![Enemy_AI](https://user-images.githubusercontent.com/65497004/172240029-b707652a-c77b-40d5-baa3-f0569dee205b.JPG)
+![controller2](https://user-images.githubusercontent.com/65497004/172240032-82d422eb-6f8d-4020-81d4-b86107eba620.JPG)
+![hitbox](https://user-images.githubusercontent.com/65497004/172240034-37a8cc56-b0c2-4dcd-ab6a-dbfcb7d1bd6c.JPG)
+![player2](https://user-images.githubusercontent.com/65497004/172240035-5d9baeb1-12ec-44b2-a747-48c75c6a20e0.JPG)
+![deneme(triggerAreaSmallEnemy)](https://user-images.githubusercontent.com/65497004/172240037-b23d495b-91a3-443a-8ea9-1b8ec460e085.JPG)
+![button](https://user-images.githubusercontent.com/65497004/172240040-0a6e0e9b-cceb-4d18-a6aa-e202b9d73e11.JPG)
+![player3](https://user-images.githubusercontent.com/65497004/172240041-74cddd5f-be9a-4483-98b5-59d26d999cfa.JPG)
+![Enemy_AI4](https://user-images.githubusercontent.com/65497004/172240044-b2367642-d8e4-4e8a-a0a0-16bf1c5350e4.JPG)
+![Enemy_AI2](https://user-images.githubusercontent.com/65497004/172240047-b06e3ac3-94d8-48cf-9e72-8db2fbd1b1ee.JPG)
+
 
 **Sprint Review**: 
 
