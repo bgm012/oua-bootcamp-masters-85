@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/cinematic.unity
     guid: 8b642c2a14840e5489f912281aa630d2
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/map.unity
+    guid: 5fe81cb290ba68a44a5901d43f23cb88
+  - enabled: 1
+    path: Assets/Scenes/kaybettin.unity
+    guid: c769c0f8797796e49b328b5867e04a8e
   m_configObjects: {}

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -27,7 +28,10 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-
+        if (health<=0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         if (Time.time > nextFireTime)
         {
             if (Input.GetKey(KeyCode.E) && firstButtonPressed)

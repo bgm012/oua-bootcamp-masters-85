@@ -19,4 +19,13 @@ public class button : MonoBehaviour
     {
         Application.Quit();
     }
+    public void Evet()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Hayir()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
