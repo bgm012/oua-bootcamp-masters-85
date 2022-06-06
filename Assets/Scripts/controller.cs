@@ -86,7 +86,7 @@ public class controller : MonoBehaviour
         if (die)
         {
             anim.SetTrigger("die");
-            Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
+            //Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
         }
     }
 

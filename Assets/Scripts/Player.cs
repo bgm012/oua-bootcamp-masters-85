@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using TMPro.EditorUtilities;
+//using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
@@ -40,10 +40,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (health<=0)
-        {
-            SceneManager.LoadScene("kaybettin");
-        }
+        
         if (Time.time > nextFireTime)
         {
             if (Input.GetKey(KeyCode.E) && firstButtonPressed)
@@ -114,7 +111,7 @@ public class Player : MonoBehaviour
         if (controller != null)
         {
             controller.die = true;
-            Debug.Log(controller.die);
+            //Debug.Log(controller.die);
         }
     }
 
@@ -153,6 +150,14 @@ public class Player : MonoBehaviour
         if (toprakBilgisi && suBilgisi)
         {
             suToprak.enabled = true;
+        }
+    }
+
+    void playerDead()
+    {
+        if (health<=0)
+        {
+            SceneManager.LoadScene("kaybettin");
         }
     }
 }
