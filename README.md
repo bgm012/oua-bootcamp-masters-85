@@ -1,4 +1,4 @@
-Oyunumuzun son hali ve Sprintlerimizin son hali oyun branch'inde mevcuttur, bilginize sunarız.
+Oyunumuzun Son hali ve Sprintlerimizin Son hali Oyun Branch'inde mevcuttur, bilginize sunarız.
 
 # oua-bootcamp-masters-85
 
